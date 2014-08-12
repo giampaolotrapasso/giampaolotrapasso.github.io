@@ -33,17 +33,22 @@ circle {
 
 text {
   fill: #000;
-  font: 10px sans-serif;
+  font: 13px sans-serif;
   cursor: pointer;
   
 }
 
+p {
+  font: 16px sans-serif;
+}
+
 </style>
 <body>
+	<p><a href="www.agilelearner.com">Agile Learner</a> has a lot of presentation on Java 8. If you get lost and do not know where to start, this map may help you.</p>
 <script>
 
 // get the data
-d3.csv("force.csv", function(error, links) {
+d3.csv("java8data.csv", function(error, links) {
 
 var nodes = {};
 
@@ -56,15 +61,15 @@ links.forEach(function(link) {
     link.value = +link.value;
 });
 
-var width = 800,
-    height = 600;
+var width = 1600,
+    height = 1000;
 
 var force = d3.layout.force()
     .nodes(d3.values(nodes))
     .links(links)
     .size([width, height])
-    .linkDistance(60)
-    .charge(-800)
+    .linkDistance(120)
+    .charge(-750)
     .on("tick", tick)
     .start();
 
@@ -121,7 +126,7 @@ var node = svg.selectAll(".node")
 
 // add the nodes
 node.append("circle")
-    .attr("r", 9);
+    .attr("r", 15);
 
 // add the text 
 node.append("text")
@@ -138,7 +143,7 @@ function tick() {
     path.attr("d", function(d) {
         var dx = d.target.x - d.source.x,
             dy = d.target.y - d.source.y,
-            dr = Math.sqrt(dx * dx + dy * dy);
+            dr = 0; //Math.sqrt(dx * dx + dy * dy);
         return "M" + 
             d.source.x + "," + 
             d.source.y + "A" + 
