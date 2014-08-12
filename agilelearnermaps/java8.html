@@ -61,8 +61,8 @@ links.forEach(function(link) {
     link.value = +link.value;
 });
 
-var width = 1600,
-    height = 1600;
+var width = 1400,
+    height = 1200;
 
 var force = d3.layout.force()
     .nodes(d3.values(nodes))
@@ -132,6 +132,8 @@ node.append("circle")
 node.append("text")
 	.attr("x", 15)
 	    .attr("dy", ".35em")
+	    .attr("dy", ".35em")
+	    .call (wrap, 20)
 	    .text(function( d) { return d.name; })
 	    .on("click", function (d ) {
 	      console.log (d )
@@ -175,6 +177,30 @@ function click() {
 
 
 });
+
+function wrap(text, width) {
+  text.each(function() {
+    var text = d3.select(this),
+        words = text.text().split(/\s+/).reverse(),
+        word,
+        line = [],
+        lineNumber = 0,
+        lineHeight = 1.1, // ems
+        y = text.attr("y"),
+        dy = parseFloat(text.attr("dy")),
+        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+    while (word = words.pop()) {
+      line.push(word);
+      tspan.text(line.join(" "));
+      if (tspan.node().getComputedTextLength() > width) {
+        line.pop();
+        tspan.text(line.join(" "));
+        line = [word];
+        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+      }
+    }
+  });
+}
 
 </script>
 </body>
