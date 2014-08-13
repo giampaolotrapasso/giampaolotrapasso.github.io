@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <meta charset="utf-8">
 <script src="http://d3js.org/d3.v3.js"></script>
@@ -38,25 +39,42 @@ text {
   padding-left: 120px;
 }
 
-p {
+/*p {
   font: 14px sans-serif;
  
+}*/
+
+#intro{
+   padding: 10px 10px 10px 10px;
+   position: fixed; top: 0px; left: 0px; right: 300px; bottom: 100px;
+   width: 400px;
 }
 
-div {
-	 background-color: rgba (0,0,0,0.6); 
-	 padding: 10px 10px 10px 10px;
+#intro p{
+  font: 13px sans-serif;
+  color: #666666;
+  background-color: rgba(255, 255, 255, 0.5)
 }
+
+
+#intro p a{
+  color: #5421bb;
+}
+
+#intro p a:hover{
+  color: #2288bb;
+}
+
 
 </style>
 <body>
-	<div style="position: absolute; top: 0px; left: 0px">
-		<p><a href="www.agilelearner.com">Agile Learner</a> has a lot of presentation on Java 8.<br/>
-		If you get lost and do not know where to start, this map may help you.<br/><br/>
-	    This is my very use of D3.js library, all errors are mine :)<br/>
-		This work is based on <a href="http://www.d3noob.org/2013/03/d3js-force-directed-graph-example-basic.html">d3.js force directed graph example (basic)</a>.<br/>
-		Thanks to Fabio Biondi (<a href=" www.fabiobiondi.com/blog">www.fabiobiondi.com/blog</a>) for some D3 tweaks.</p>
-	 </div>
+  <div id="intro" >
+    <p><a href="www.agilelearner.com">Agile Learner</a> has a lot of presentation on Java 8.<br/>
+    If you get lost and do not know where to start, this map may help you.<br/><br/>
+      This is my very use of D3.js library, all errors are mine :)<br/>
+    This work is based on <a href="http://www.d3noob.org/2013/03/d3js-force-directed-graph-example-basic.html">d3.js force directed graph example (basic)</a>.<br/>
+    Thanks to Fabio Biondi (<a href=" www.fabiobiondi.com/blog">www.fabiobiondi.com/blog</a>) for some D3 tweaks.</p>
+   </div>
 <script>
 
 // get the data
@@ -93,15 +111,15 @@ v.domain([0, d3.max(links, function(d) { return d.value; })]);
 
 // asign a type per value to encode opacity
 links.forEach(function(link) {
-	if (v(link.value) <= 25) {
-		link.type = "twofive";
-	} else if (v(link.value) <= 50 && v(link.value) > 25) {
-		link.type = "fivezero";
-	} else if (v(link.value) <= 75 && v(link.value) > 50) {
-		link.type = "sevenfive";
-	} else if (v(link.value) <= 100 && v(link.value) > 75) {
-		link.type = "onezerozero";
-	}
+  if (v(link.value) <= 25) {
+    link.type = "twofive";
+  } else if (v(link.value) <= 50 && v(link.value) > 25) {
+    link.type = "fivezero";
+  } else if (v(link.value) <= 75 && v(link.value) > 50) {
+    link.type = "sevenfive";
+  } else if (v(link.value) <= 100 && v(link.value) > 75) {
+    link.type = "onezerozero";
+  }
 });
 
 var svg = d3.select("body").append("svg")
@@ -142,17 +160,17 @@ node.append("circle")
 
 // add the text 
 node.append("text")
-	.attr("dx", 20)
-	.attr("dy", 5)
-	//.attr("dx", ".35em")
-	    .attr("dy", ".15em")
-	    .text(function( d) { return d.name; })
-		 .call (wrap, 160)
-	    .on("click", function (d ) {
-	      console.log (d )
-	      window.open(d.myurl);
-	    });
-		
+  .attr("dx", 20)
+  .attr("dy", 5)
+  //.attr("dx", ".35em")
+      .attr("dy", ".15em")
+      .text(function( d) { return d.name; })
+     .call (wrap, 160)
+      .on("click", function (d ) {
+        console.log (d )
+        window.open(d.myurl);
+      });
+    
 function wrap(text, width) {
   text.each(function() {
     var text = d3.select(this),
@@ -175,7 +193,7 @@ function wrap(text, width) {
       }
     }
   });
-}		
+}   
 
 // add the curvy lines
 function tick() {
@@ -193,7 +211,7 @@ function tick() {
 
     node
         .attr("transform", function(d) { 
-		    return "translate(" + d.x + "," + d.y + ")"; });
+        return "translate(" + d.x + "," + d.y + ")"; });
 }
 
 // action to take on mouse click
