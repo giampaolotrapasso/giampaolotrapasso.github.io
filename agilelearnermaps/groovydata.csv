@@ -38,3 +38,6 @@ sourceurl,source,target,targeturl,value
 "http://www.agilelearner.com//presentation/230","Groovy Mixing Parameters and Hashmaps","Groovy Named Params Constructor","http://www.agilelearner.com/presentation/241","1"
 "http://www.agilelearner.com//presentation/15","Delegation in Groovy—Part I","Groovy Code Generation Annotations","http://www.agilelearner.com/presentation/247","1"
 "http://www.agilelearner.com//presentation/16","Delegation in Groovy—Part II","Groovy Code Generation Annotations","http://www.agilelearner.com/presentation/247","1"
+"http://www.agilelearner.com//presentation/50","JavaBeans in Groovy—Part 1","Groovy Canonical: Part I","http://www.agilelearner.com/presentation/251","1"
+"http://www.agilelearner.com//presentation/241","Groovy Named Params Constructor","Groovy Canonical: Part I","http://www.agilelearner.com/presentation/251","1"
+"http://www.agilelearner.com//presentation/247","Groovy Code Generation Annotations","Groovy Canonical: Part I","http://www.agilelearner.com/presentation/251","1"
