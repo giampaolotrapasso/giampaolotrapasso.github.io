@@ -33,3 +33,5 @@ sourceurl,source,target,targeturl,value
 "http://www.agilelearner.com//presentation/152","Function Calls in Clojure","Clojure Exception Handling","http://www.agilelearner.com/presentation/253","1"
 "http://www.agilelearner.com//presentation/212","Clojure when and when-not","Clojure Exception Handling","http://www.agilelearner.com/presentation/253","1"
 "http://www.agilelearner.com//presentation/252","Clojure Instance Methods: Part II","Clojure Exception Handling","http://www.agilelearner.com/presentation/253","1"
+"http://www.agilelearner.com//presentation/20","Execute Around Method Pattern—Part I","Clojure with-open: Part I","http://www.agilelearner.com/presentation/261","1"
+"http://www.agilelearner.com//presentation/152","Function Calls in Clojure","Clojure with-open: Part I","http://www.agilelearner.com/presentation/261","1"
