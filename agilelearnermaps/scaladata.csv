@@ -43,3 +43,5 @@ sourceurl,source,target,targeturl,value
 "http://www.agilelearner.com//presentation/233","Scala Matching with Guards","Scala Matching XML: Part III","http://www.agilelearner.com/presentation/257","1"
 "http://www.agilelearner.com//presentation/257","Scala Matching XML: Part III","Scala Matching XML: Part IV","http://www.agilelearner.com/presentation/258","1"
 "http://www.agilelearner.com//presentation/85","Defining a Function in Scala","Scala Partial Functions: Part I","http://www.agilelearner.com/presentation/263","1"
+"http://www.agilelearner.com//presentation/263","Scala Partial Functions: Part I","Scala Partial Functions: Part II","http://www.agilelearner.com/presentation/268","1"
+"http://www.agilelearner.com//presentation/198","Scala Pattern Matching","Scala Partial Functions: Part II","http://www.agilelearner.com/presentation/268","1"
