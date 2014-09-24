@@ -37,3 +37,5 @@ sourceurl,source,target,targeturl,value
 "http://www.agilelearner.com//presentation/152","Function Calls in Clojure","Clojure with-open: Part I","http://www.agilelearner.com/presentation/261","1"
 "http://www.agilelearner.com//presentation/261","Clojure with-open: Part I","Clojure with-open: Part II","http://www.agilelearner.com/presentation/267","1"
 "http://www.agilelearner.com//presentation/152","Function Calls in Clojure","Characters in Clojure","http://www.agilelearner.com/presentation/271","1"
+"http://www.agilelearner.com//presentation/271","Characters in Clojure","Strings in Clojure","http://www.agilelearner.com/presentation/273","1"
+"http://www.agilelearner.com//presentation/243","Clojure Instance Methods: Part I","Strings in Clojure","http://www.agilelearner.com/presentation/273","1"
