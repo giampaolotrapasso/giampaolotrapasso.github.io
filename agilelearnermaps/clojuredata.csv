@@ -39,3 +39,4 @@ sourceurl,source,target,targeturl,value
 "http://www.agilelearner.com//presentation/152","Function Calls in Clojure","Characters in Clojure","http://www.agilelearner.com/presentation/271","1"
 "http://www.agilelearner.com//presentation/271","Characters in Clojure","Strings in Clojure","http://www.agilelearner.com/presentation/273","1"
 "http://www.agilelearner.com//presentation/243","Clojure Instance Methods: Part I","Strings in Clojure","http://www.agilelearner.com/presentation/273","1"
+"http://www.agilelearner.com//presentation/172","Clojure Functions with var args","Clojure recur: Part I","http://www.agilelearner.com/presentation/282","1"
