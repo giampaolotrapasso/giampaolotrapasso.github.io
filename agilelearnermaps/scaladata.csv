@@ -48,3 +48,5 @@ sourceurl,source,target,targeturl,value
 "http://www.agilelearner.com//presentation/268","Scala Partial Functions: Part II","Scala Partial Functions: Part III","http://www.agilelearner.com/presentation/274","1"
 "http://www.agilelearner.com//presentation/158","Scala Apply Method","Scala Partial Functions: Part III","http://www.agilelearner.com/presentation/274","1"
 "http://www.agilelearner.com//presentation/274","Scala Partial Functions: Part III","Scala Partial Functions: Part IV","http://www.agilelearner.com/presentation/278","1"
+"http://www.agilelearner.com//presentation/85","Defining a Function in Scala","Scala Function Application","http://www.agilelearner.com/presentation/284","1"
+"http://www.agilelearner.com//presentation/90","Function Invocation Weirdness in Scala","Scala Function Application","http://www.agilelearner.com/presentation/284","1"
