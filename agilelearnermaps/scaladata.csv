@@ -50,3 +50,7 @@ sourceurl,source,target,targeturl,value
 "http://www.agilelearner.com//presentation/274","Scala Partial Functions: Part III","Scala Partial Functions: Part IV","http://www.agilelearner.com/presentation/278","1"
 "http://www.agilelearner.com//presentation/85","Defining a Function in Scala","Scala Function Application","http://www.agilelearner.com/presentation/284","1"
 "http://www.agilelearner.com//presentation/90","Function Invocation Weirdness in Scala","Scala Function Application","http://www.agilelearner.com/presentation/284","1"
+"http://www.agilelearner.com//presentation/284","Scala Function Application","Scala Partially Applied Functions","http://www.agilelearner.com/presentation/289","1"
+"http://www.agilelearner.com//presentation/278","Scala Partial Functions: Part IV","Scala Partially Applied Functions","http://www.agilelearner.com/presentation/289","1"
+"http://www.agilelearner.com//presentation/178","Using Java Collections from Scala","Underscores of Scala: Part I","http://www.agilelearner.com/presentation/293","1"
+"http://www.agilelearner.com//presentation/81","Somersault of Operands in Scala","Underscores of Scala: Part I","http://www.agilelearner.com/presentation/293","1"

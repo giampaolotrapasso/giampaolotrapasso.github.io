@@ -41,3 +41,5 @@ sourceurl,source,target,targeturl,value
 "http://www.agilelearner.com//presentation/243","Clojure Instance Methods: Part I","Strings in Clojure","http://www.agilelearner.com/presentation/273","1"
 "http://www.agilelearner.com//presentation/172","Clojure Functions with var args","Clojure recur: Part I","http://www.agilelearner.com/presentation/282","1"
 "http://www.agilelearner.com//presentation/282","Clojure recur: Part I","Clojure recur: Part II","http://www.agilelearner.com/presentation/287","1"
+"http://www.agilelearner.com//presentation/287","Clojure recur: Part II","Clojure recur: Part III","http://www.agilelearner.com/presentation/292","1"
+"http://www.agilelearner.com//presentation/292","Clojure recur: Part III","Clojure Inner Function","http://www.agilelearner.com/presentation/297","1"
