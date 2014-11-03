@@ -27,22 +27,22 @@ path.link.onezerozero {
 }
 
 circle {
-  fill: #ccc;
+  fill: #FF9900;
   stroke: #fff;
   stroke-width: 1.5px;
+  z-index: 10;
 }
+
+
 
 text {
   fill: #000;
-  font: 13px sans-serif;
+  font: 12px sans-serif;
   cursor: pointer;
   padding-left: 120px;
+   z-index: 20;
 }
 
-/*p {
-  font: 14px sans-serif;
- 
-}*/
 
 #intro{
    padding: 10px 10px 10px 10px;
@@ -64,8 +64,6 @@ text {
 #intro p a:hover{
   color: #2288bb;
 }
-
-
 </style>
 <body>
   <div id="intro" >
@@ -73,7 +71,6 @@ text {
     If you get lost and do not know where to start, this map may help you.<br/><br/>
       This is my very use of D3.js library, all errors are mine :)<br/>
     This work is based on <a href="http://www.d3noob.org/2013/03/d3js-force-directed-graph-example-basic.html">d3.js force directed graph example (basic)</a>.<br/>
-    Thanks to Fabio Biondi (<a href="http://www.fabiobiondi.com/blog">www.fabiobiondi.com/blog</a>) for some D3 tweaks.<br/><br/>
     Do you speak italian? Check some italian Java stuff on <a href="http://www.cosenonjaviste.it">www.cosenonjaviste.it</a></p>
    </div>
 <script>
@@ -93,14 +90,14 @@ links.forEach(function(link) {
 });
 
 var width = 1000,
-    height = 900;
+    height = 1000;
 
 var force = d3.layout.force()
     .nodes(d3.values(nodes))
     .links(links)
     .size([width, height])
-    .linkDistance(120)
-    .charge(-1050)
+    .linkDistance(155)
+    .charge(-1000)
     .on("tick", tick)
     .start();
 
@@ -134,9 +131,9 @@ svg.append("svg:defs").selectAll("marker")
     .attr("id", String)
     .attr("viewBox", "0 -5 10 10")
     .attr("refX",24)
-    .attr("refY", -1.5)
-    .attr("markerWidth", 6)
-    .attr("markerHeight", 6)
+    .attr("refY", -0.5)
+    .attr("markerWidth", 7)
+    .attr("markerHeight", 7)
     .attr("orient", "auto")
   .append("svg:path")
     .attr("d", "M0,-5L10,0L0,5");
@@ -157,7 +154,7 @@ var node = svg.selectAll(".node")
 
 // add the nodes
 node.append("circle")
-    .attr("r", 12);
+    .attr("r", 15);
 
 // add the text 
 node.append("text")
@@ -166,7 +163,7 @@ node.append("text")
   //.attr("dx", ".35em")
       .attr("dy", ".15em")
       .text(function( d) { return d.name; })
-     .call (wrap, 160)
+     .call (wrap, 130)
       .on("click", function (d ) {
         console.log (d )
         window.open(d.myurl);
