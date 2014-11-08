@@ -1,8 +1,8 @@
 sourceurl,source,target,targeturl,value
 "http://www.agilelearner.com//presentation/6","Refactoring to Lambda Expressions in Java","Internal vs External Iterators","https://www.agilelearner.com/presentation/2","1"
 "http://www.agilelearner.com//presentation/2","Internal vs External Iterators","Transforming a List in Java 8","https://www.agilelearner.com/presentation/31","1"
-"http://www.agilelearner.com//presentation/2","Internal vs External Iterators","Reusing Filter Operation in Java 8","https://www.agilelearner.com/presentation/33","1"
 "http://www.agilelearner.com//presentation/31","Transforming a List in Java 8","Filtering a List in Java 8","https://www.agilelearner.com/presentation/32","1"
+"http://www.agilelearner.com//presentation/2","Internal vs External Iterators","Reusing Filter Operation in Java 8","https://www.agilelearner.com/presentation/33","1"
 "http://www.agilelearner.com//presentation/6","Refactoring to Lambda Expressions in Java","Functional Interfaces in Java 8","https://www.agilelearner.com/presentation/53","1"
 "http://www.agilelearner.com//presentation/53","Functional Interfaces in Java 8","Legacy Interfaces to Functional Interfaces in Java 8-Part-1","https://www.agilelearner.com/presentation/59","1"
 "http://www.agilelearner.com//presentation/59","Legacy Interfaces to Functional Interfaces in Java 8-Part-1","Legacy Interfaces to Functional Interfaces in Java 8-Part-2","https://www.agilelearner.com/presentation/64","1"
@@ -51,3 +51,4 @@ sourceurl,source,target,targeturl,value
 "http://www.agilelearner.com//presentation/1","Imperative vs Declarative","Java 8 Returning Functions: Part I","https://www.agilelearner.com/presentation/295","1"
 "http://www.agilelearner.com//presentation/2","Internal vs External Iterators","Java 8 Returning Functions: Part I","https://www.agilelearner.com/presentation/295","1"
 "http://www.agilelearner.com//presentation/295","Java 8 Returning Functions: Part I","Java 8 Returning Functions: Part II","https://www.agilelearner.com/presentation/300","1"
+"http://www.agilelearner.com//presentation/300","Java 8 Returning Functions: Part II","Java 8 Returning Functions: Part III","https://www.agilelearner.com/presentation/305","1"
