@@ -1,0 +1,9 @@
+sourceurl,source,target,targeturl,value
+"http://www.agilelearner.com//presentation/26","Levels of Encapsulation—Part I","Levels of Encapsulation—Part II","https://www.agilelearner.com/presentation/27","1"
+"http://www.agilelearner.com//presentation/41","Understanding C++ References","C++ Call by Value","https://www.agilelearner.com/presentation/39","1"
+"http://www.agilelearner.com//presentation/39","C++ Call by Value","C++ Call by Reference","https://www.agilelearner.com/presentation/40","1"
+"http://www.agilelearner.com//presentation/41","Understanding C++ References","C++ Call by Reference","https://www.agilelearner.com/presentation/40","1"
+"http://www.agilelearner.com//presentation/22","Honor const in C++ Query Methods","Understanding C++ References","https://www.agilelearner.com/presentation/41","1"
+"http://www.agilelearner.com//presentation/41","Understanding C++ References","Never Pass an Object by Value in C++","https://www.agilelearner.com/presentation/46","1"
+"http://www.agilelearner.com//presentation/22","Honor const in C++ Query Methods","C++ const Everywhere: Part I","https://www.agilelearner.com/presentation/121","1"
+"http://www.agilelearner.com//presentation/116","avoid Castaway in C++","C++ const Everywhere: Part I","https://www.agilelearner.com/presentation/121","1"
