@@ -52,3 +52,5 @@ sourceurl,source,target,targeturl,value
 "http://www.agilelearner.com//presentation/2","Internal vs External Iterators","Java 8 Returning Functions: Part I","https://www.agilelearner.com/presentation/295","1"
 "http://www.agilelearner.com//presentation/295","Java 8 Returning Functions: Part I","Java 8 Returning Functions: Part II","https://www.agilelearner.com/presentation/300","1"
 "http://www.agilelearner.com//presentation/300","Java 8 Returning Functions: Part II","Java 8 Returning Functions: Part III","https://www.agilelearner.com/presentation/305","1"
+"http://www.agilelearner.com//presentation/310","null is a Smell","Optional in Java 8","https://www.agilelearner.com/presentation/316","1"
+"http://www.agilelearner.com//presentation/97","Supplier Functional Interface","Optional in Java 8","https://www.agilelearner.com/presentation/316","1"
