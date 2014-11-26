@@ -59,3 +59,5 @@ sourceurl,source,target,targeturl,value
 "http://www.agilelearner.com//presentation/301","Groovy Singleton: Part I","Groovy Singleton: Part II","https://www.agilelearner.com/presentation/306","1"
 "http://www.agilelearner.com//presentation/247","Groovy Code Generation Annotations","Groovy Synchronized: Part I","https://www.agilelearner.com/presentation/311","1"
 "http://www.agilelearner.com//presentation/311","Groovy Synchronized: Part I","Groovy Synchronized: Part II","https://www.agilelearner.com/presentation/317","1"
+"http://www.agilelearner.com//presentation/247","Groovy Code Generation Annotations","Groovy with lock annotations","https://www.agilelearner.com/presentation/321","1"
+"http://www.agilelearner.com//presentation/317","Groovy Synchronized: Part II","Groovy with lock annotations","https://www.agilelearner.com/presentation/321","1"
