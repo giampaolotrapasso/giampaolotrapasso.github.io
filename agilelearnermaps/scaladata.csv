@@ -62,3 +62,5 @@ sourceurl,source,target,targeturl,value
 "http://www.agilelearner.com//presentation/314","Underscores of Scala: Part V","Underscores of Scala: Part VI","https://www.agilelearner.com/presentation/318","1"
 "http://www.agilelearner.com//presentation/289","Scala Partially Applied Functions","Underscores of Scala: Part VI","https://www.agilelearner.com/presentation/318","1"
 "http://www.agilelearner.com//presentation/158","Scala Apply Method","Underscores of Scala: Part VI","https://www.agilelearner.com/presentation/318","1"
+"http://www.agilelearner.com//presentation/62","Immutable Lists in Scala","Scala Tuples","https://www.agilelearner.com/presentation/324","1"
+"http://www.agilelearner.com//presentation/324","Scala Tuples","Scala Multiple Assignments","https://www.agilelearner.com/presentation/331","1"
