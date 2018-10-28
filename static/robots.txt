@@ -1,4 +1,4 @@
 User-agent: *
-Sitemap: https://giampaolotrapasso.it/sitemap.xml
+Sitemap: https://giampaolotrapasso.it/static/sitemap.xml
 Disallow: /ghost/
 Disallow: /p/
